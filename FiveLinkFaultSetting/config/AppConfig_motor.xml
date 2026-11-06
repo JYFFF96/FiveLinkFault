@@ -1,0 +1,110 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AppConfig>
+    <AppTitle>五联动电机故障设置软件</AppTitle>
+    <Commands>
+        <ResetFrame>#ID:0;R:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;RS:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;C:1,2,3,4,5,6,7,8;CS:0,0,0,0,0,0,0,0;%</ResetFrame>
+        <ReadFrame>#ID:0;READ;%</ReadFrame>
+    </Commands>
+    <FaultPages>
+        <Page id="fiveLink" title="五联动故障设置">
+            <Section title="电源系统故障设置">
+                <Fault text="高压多合一电源1-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="高压多合一电源1-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="高压多合一电源1-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="高压多合一电源2-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="高压多合一电源2-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="高压多合一电源2-虚接" clickable="true" index="2" faultType="loose" />
+
+                <Fault text="制动踏板供电-短路" clickable="true" index="3" faultType="short" />
+                <Fault text="制动踏板供电-断路" clickable="true" index="3" faultType="open" />
+                <Fault text="制动踏板供电-虚接" clickable="true" index="3" faultType="loose" />
+
+                <Fault text="制动踏板开关信号1-短路" clickable="true" index="4" faultType="short" />
+                <Fault text="制动踏板开关信号1-断路" clickable="true" index="4" faultType="open" />
+                <Fault text="制动踏板开关信号1-虚接" clickable="true" index="4" faultType="loose" />
+
+                <Fault text="左前轮速传感器信号-短路" clickable="true" index="5" faultType="short" />
+                <Fault text="左前轮速传感器信号-断路" clickable="true" index="5" faultType="open" />
+                <Fault text="左前轮速传感器信号-虚接" clickable="true" index="5" faultType="loose" />
+
+                <Fault text="左前轮速传感器电源-短路" clickable="true" index="6" faultType="short" />
+                <Fault text="左前轮速传感器电源-断路" clickable="true" index="6" faultType="open" />
+                <Fault text="左前轮速传感器电源-虚接" clickable="true" index="6" faultType="loose" />
+
+                <Fault text="集成制动控制系统总成IG1电源-短路" clickable="true" index="7" faultType="short" />
+                <Fault text="集成制动控制系统总成IG1电源-断路" clickable="true" index="7" faultType="open" />
+                <Fault text="集成制动控制系统总成IG1电源-虚接" clickable="true" index="7" faultType="loose" />
+
+                <Fault text="油门踏板5V电源1火线-短路" clickable="true" index="8" faultType="short" />
+                <Fault text="油门踏板5V电源1火线-断路" clickable="true" index="8" faultType="open" />
+                <Fault text="油门踏板5V电源1火线-虚接" clickable="true" index="8" faultType="loose" />
+
+                <Fault text="油门踏板5V电源2接地-短路" clickable="true" index="9" faultType="short" />
+                <Fault text="油门踏板5V电源2接地-断路" clickable="true" index="9" faultType="open" />
+                <Fault text="油门踏板5V电源2接地-虚接" clickable="true" index="9" faultType="loose" />
+
+                <Fault text="油门踏板信号2-短路" clickable="true" index="10" faultType="short" />
+                <Fault text="油门踏板信号2-断路" clickable="true" index="10" faultType="open" />
+                <Fault text="油门踏板信号2-虚接" clickable="true" index="10" faultType="loose" />
+
+                <Fault text="换单操纵机构D档信号-短路" clickable="true" index="11" faultType="short" />
+                <Fault text="换单操纵机构D档信号-断路" clickable="true" index="11" faultType="open" />
+                <Fault text="换单操纵机构D档信号-虚接" clickable="true" index="11" faultType="loose" />
+
+                <Fault text="换挡操纵机构12V电源-短路" clickable="true" index="12" faultType="short" />
+                <Fault text="换挡操纵机构12V电源-断路" clickable="true" index="12" faultType="open" />
+                <Fault text="换挡操纵机构12V电源-虚接" clickable="true" index="12" faultType="loose" />
+
+                <Fault text="换挡操纵机构5V电源-短路" clickable="true" index="13" faultType="short" />
+                <Fault text="换挡操纵机构5V电源-断路" clickable="true" index="13" faultType="open" />
+                <Fault text="换挡操纵机构5V电源-虚接" clickable="true" index="13" faultType="loose" />
+
+                <Fault text="换挡操纵面板总成电源-短路" clickable="true" index="14" faultType="short" />
+                <Fault text="换挡操纵面板总成电源-断路" clickable="true" index="14" faultType="open" />
+                <Fault text="换挡操纵面板总成电源-虚接" clickable="true" index="14" faultType="loose" />
+
+                <Fault text="组合仪表供电-短路" clickable="true" index="15" faultType="short" />
+                <Fault text="组合仪表供电-断路" clickable="true" index="15" faultType="open" />
+                <Fault text="组合仪表供电-虚接" clickable="true" index="15" faultType="loose" />
+
+                <Fault text="组合仪表接地-短路" clickable="true" index="16" faultType="short" />
+                <Fault text="组合仪表接地-断路" clickable="true" index="16" faultType="open" />
+                <Fault text="组合仪表接地-虚接" clickable="true" index="16" faultType="loose" />
+            </Section>
+            <Section title="通讯系统故障设置">
+                <Fault text="偏航率CAN-L通讯-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="偏航率CAN-L通讯-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="偏航率CAN-L通讯-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="偏航率CAN-H通讯-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="偏航率CAN-H通讯-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="偏航率CAN-H通讯-虚接" clickable="true" index="2" faultType="loose" />
+
+                <Fault text="组合仪表CAN-H通讯-短路" clickable="true" index="3" faultType="short" />
+                <Fault text="组合仪表CAN-H通讯-断路" clickable="true" index="3" faultType="open" />
+                <Fault text="组合仪表CAN-H通讯-虚接" clickable="true" index="3" faultType="loose" />
+
+                <Fault text="组合仪表CAN-L通讯-短路" clickable="true" index="4" faultType="short" />
+                <Fault text="组合仪表CAN-L通讯-断路" clickable="true" index="4" faultType="open" />
+                <Fault text="组合仪表CAN-L通讯-虚接" clickable="true" index="4" faultType="loose" />
+
+                <Fault text="后车身控制器CAN-H 通讯-短路" clickable="true" index="5" faultType="short" />
+                <Fault text="后车身控制器CAN-H 通讯-断路" clickable="true" index="5" faultType="open" />
+                <Fault text="后车身控制器CAN-H 通讯-虚接" clickable="true" index="5" faultType="loose" />
+
+                <Fault text="后车身控制器CAN-L通讯-短路" clickable="true" index="6" faultType="short" />
+                <Fault text="后车身控制器CAN-L通讯-断路" clickable="true" index="6" faultType="open" />
+                <Fault text="后车身控制器CAN-L通讯-虚接" clickable="true" index="6" faultType="loose" />
+
+                <Fault text="换挡操纵面板CAN-H 通讯-短路" clickable="true" index="7" faultType="short" />
+                <Fault text="换挡操纵面板CAN-H 通讯-断路" clickable="true" index="7" faultType="open" />
+                <Fault text="换挡操纵面板CAN-H 通讯-虚接" clickable="true" index="7" faultType="loose" />
+
+                <Fault text="换挡操纵面板CAN-L通讯-短路" clickable="true" index="8" faultType="short" />
+                <Fault text="换挡操纵面板CAN-L通讯-断路" clickable="true" index="8" faultType="open" />
+                <Fault text="换挡操纵面板CAN-L通讯-虚接" clickable="true" index="8" faultType="loose" />
+            </Section>
+        </Page>
+    </FaultPages>
+</AppConfig>

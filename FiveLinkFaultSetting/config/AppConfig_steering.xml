@@ -1,0 +1,26 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AppConfig>
+    <AppTitle>五联动转向故障设置软件</AppTitle>
+    <Commands>
+        <ResetFrame>#ID:0;R:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;RS:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;C:1,2,3,4,5,6,7,8;CS:0,0,0,0,0,0,0,0;%</ResetFrame>
+        <ReadFrame>#ID:0;READ;%</ReadFrame>
+    </Commands>
+    <FaultPages>
+        <Page id="fiveLink" title="五联动故障设置">
+            <Section title="电源系统故障设置">
+                <Fault text="EPS ON电源-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="EPS ON电源-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="EPS ON电源-虚接" clickable="true" index="1" faultType="loose" />
+            </Section>
+            <Section title="通讯系统故障设置">
+                <Fault text="CAN-H-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="CAN-H-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="CAN-H-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="CAN-L-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="CAN-L-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="CAN-L-虚接" clickable="true" index="2" faultType="loose" />
+            </Section>
+        </Page>
+    </FaultPages>
+</AppConfig>

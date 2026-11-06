@@ -1,0 +1,74 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AppConfig>
+    <AppTitle>五联动空调故障设置软件</AppTitle>
+    <Commands>
+        <ResetFrame>#ID:0;R:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;RS:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;C:1,2,3,4,5,6,7,8;CS:0,0,0,0,0,0,0,0;%</ResetFrame>
+        <ReadFrame>#ID:0;READ;%</ReadFrame>
+    </Commands>
+    <FaultPages>
+        <Page id="fiveLink" title="五联动故障设置">
+            <Section title="电源系统故障设置">
+                <Fault text="空调热管理集成模块供电-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="空调热管理集成模块供电-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="空调热管理集成模块供电-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="电子阀控制端口6-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="电子阀控制端口6-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="电子阀控制端口6-虚接" clickable="true" index="2" faultType="loose" />
+
+                <Fault text="电子阀控制端口5-短路" clickable="true" index="3" faultType="short" />
+                <Fault text="电子阀控制端口5-断路" clickable="true" index="3" faultType="open" />
+                <Fault text="电子阀控制端口5-虚接" clickable="true" index="3" faultType="loose" />
+
+                <Fault text="蒸发器电子膨胀阀控制B-短路" clickable="true" index="4" faultType="short" />
+                <Fault text="蒸发器电子膨胀阀控制B-断路" clickable="true" index="4" faultType="open" />
+                <Fault text="蒸发器电子膨胀阀控制B-虚接" clickable="true" index="4" faultType="loose" />
+
+                <Fault text="蒸发器电子膨胀阀控制A-短路" clickable="true" index="5" faultType="short" />
+                <Fault text="蒸发器电子膨胀阀控制A-断路" clickable="true" index="5" faultType="open" />
+                <Fault text="蒸发器电子膨胀阀控制A-虚接" clickable="true" index="5" faultType="loose" />
+
+                <Fault text="压力传感器(压缩机出口)-短路" clickable="true" index="6" faultType="short" />
+                <Fault text="压力传感器(压缩机出口)-断路" clickable="true" index="6" faultType="open" />
+                <Fault text="压力传感器(压缩机出口)-虚接" clickable="true" index="6" faultType="loose" />
+
+                <Fault text="模式风门传感器电源线-短路" clickable="true" index="7" faultType="short" />
+                <Fault text="模式风门传感器电源线-断路" clickable="true" index="7" faultType="open" />
+                <Fault text="模式风门传感器电源线-虚接" clickable="true" index="7" faultType="loose" />
+
+                <Fault text="模式风门电机电源2-短路" clickable="true" index="8" faultType="short" />
+                <Fault text="模式风门电机电源2-断路" clickable="true" index="8" faultType="open" />
+                <Fault text="模式风门电机电源2-虚接" clickable="true" index="8" faultType="loose" />
+
+                <Fault text="模式风门电机电源1-短路" clickable="true" index="9" faultType="short" />
+                <Fault text="模式风门电机电源1-断路" clickable="true" index="9" faultType="open" />
+                <Fault text="模式风门电机电源1-虚接" clickable="true" index="9" faultType="loose" />
+
+                <Fault text="电动压缩机低压供电-短路" clickable="true" index="10" faultType="short" />
+                <Fault text="电动压缩机低压供电-断路" clickable="true" index="10" faultType="open" />
+                <Fault text="电动压缩机低压供电-虚接" clickable="true" index="10" faultType="loose" />
+            </Section>
+            <Section title="通讯系统故障设置">
+                <Fault text="温度压力传感器压力采集信号-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="温度压力传感器压力采集信号-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="温度压力传感器压力采集信号-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="温度压力传感器温度采集信号-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="温度压力传感器温度采集信号-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="温度压力传感器温度采集信号-虚接" clickable="true" index="2" faultType="loose" />
+
+                <Fault text="模式风门反馈信号-短路" clickable="true" index="3" faultType="short" />
+                <Fault text="模式风门反馈信号-断路" clickable="true" index="3" faultType="open" />
+                <Fault text="模式风门反馈信号-虚接" clickable="true" index="3" faultType="loose" />
+
+                <Fault text="电动压缩机CAN-H-短路" clickable="true" index="4" faultType="short" />
+                <Fault text="电动压缩机CAN-H-断路" clickable="true" index="4" faultType="open" />
+                <Fault text="电动压缩机CAN-H-虚接" clickable="true" index="4" faultType="loose" />
+
+                <Fault text="电动压缩机CAN-L-短路" clickable="true" index="5" faultType="short" />
+                <Fault text="电动压缩机CAN-L-断路" clickable="true" index="5" faultType="open" />
+                <Fault text="电动压缩机CAN-L-虚接" clickable="true" index="5" faultType="loose" />
+            </Section>
+        </Page>
+    </FaultPages>
+</AppConfig>

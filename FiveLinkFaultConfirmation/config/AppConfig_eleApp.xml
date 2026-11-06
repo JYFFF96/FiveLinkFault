@@ -1,0 +1,114 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AppConfig>
+    <AppTitle>五联动电器故障确认软件</AppTitle>
+    <Commands>
+        <ResetFrame>#ID:0;R:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;RS:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;C:1,2,3,4,5,6,7,8;CS:0,0,0,0,0,0,0,0;%</ResetFrame>
+        <ReadFrame>#ID:0;READ;%</ReadFrame>
+    </Commands>
+    <FaultPages>
+        <Page id="fiveLink" title="五联动故障设置">
+            <Section title="电源系统故障设置">
+                <Fault text="左前组合灯接地-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="左前组合灯接地-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="左前组合灯接地-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="左前组合灯位置灯电源-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="左前组合灯位置灯电源-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="左前组合灯位置灯电源-虚接" clickable="true" index="2" faultType="loose" />
+
+                <Fault text="左前组合灯转向电源-短路" clickable="true" index="3" faultType="short" />
+                <Fault text="左前组合灯转向电源-断路" clickable="true" index="3" faultType="open" />
+                <Fault text="左前组合灯转向电源-虚接" clickable="true" index="3" faultType="loose" />
+
+                <Fault text="左前组合灯昼行灯电源-短路" clickable="true" index="4" faultType="short" />
+                <Fault text="左前组合灯昼行灯电源-断路" clickable="true" index="4" faultType="open" />
+                <Fault text="左前组合灯昼行灯电源-虚接" clickable="true" index="4" faultType="loose" />
+
+                <Fault text="左前组合灯大灯调光电机信号-短路" clickable="true" index="5" faultType="short" />
+                <Fault text="左前组合灯大灯调光电机信号-断路" clickable="true" index="5" faultType="open" />
+                <Fault text="左前组合灯大灯调光电机信号-虚接" clickable="true" index="5" faultType="loose" />
+
+                <Fault text="左前组合灯远光灯-短路" clickable="true" index="6" faultType="short" />
+                <Fault text="左前组合灯远光灯-断路" clickable="true" index="6" faultType="open" />
+                <Fault text="左前组合灯远光灯-虚接" clickable="true" index="6" faultType="loose" />
+
+                <Fault text="左前组合灯远近光调光电机-短路" clickable="true" index="7" faultType="short" />
+                <Fault text="左前组合灯远近光调光电机-断路" clickable="true" index="7" faultType="open" />
+                <Fault text="左前组合灯远近光调光电机-虚接" clickable="true" index="7" faultType="loose" />
+
+                <Fault text="左后尾灯转向电源-短路" clickable="true" index="8" faultType="short" />
+                <Fault text="左后尾灯转向电源-断路" clickable="true" index="8" faultType="open" />
+                <Fault text="左后尾灯转向电源-虚接" clickable="true" index="8" faultType="loose" />
+
+                <Fault text="左后尾灯使能信号-短路" clickable="true" index="9" faultType="short" />
+                <Fault text="左后尾灯使能信号-断路" clickable="true" index="9" faultType="open" />
+                <Fault text="左后尾灯使能信号-虚接" clickable="true" index="9" faultType="loose" />
+
+                <Fault text="右后组合灯位置灯-短路" clickable="true" index="10" faultType="short" />
+                <Fault text="右后组合灯位置灯-断路" clickable="true" index="10" faultType="open" />
+                <Fault text="右后组合灯位置灯-虚接" clickable="true" index="10" faultType="loose" />
+
+                <Fault text="右中尾灯制动电源-短路" clickable="true" index="11" faultType="short" />
+                <Fault text="右中尾灯制动电源-断路" clickable="true" index="11" faultType="open" />
+                <Fault text="右中尾灯制动电源-虚接" clickable="true" index="11" faultType="loose" />
+
+                <Fault text="右中尾灯转向电源-短路" clickable="true" index="12" faultType="short" />
+                <Fault text="右中尾灯转向电源-断路" clickable="true" index="12" faultType="open" />
+                <Fault text="右中尾灯转向电源-虚接" clickable="true" index="12" faultType="loose" />
+
+                <Fault text="组合开关雨刮HI信号-短路" clickable="true" index="13" faultType="short" />
+                <Fault text="组合开关雨刮HI信号-断路" clickable="true" index="13" faultType="open" />
+                <Fault text="组合开关雨刮HI信号-虚接" clickable="true" index="13" faultType="loose" />
+
+                <Fault text="组合开关近光灯控制信号-短路" clickable="true" index="14" faultType="short" />
+                <Fault text="组合开关近光灯控制信号-断路" clickable="true" index="14" faultType="open" />
+                <Fault text="组合开关近光灯控制信号-虚接" clickable="true" index="14" faultType="loose" />
+
+                <Fault text="左前门锁电机1-短路" clickable="true" index="15" faultType="short" />
+                <Fault text="左前门锁电机1-断路" clickable="true" index="15" faultType="open" />
+                <Fault text="左前门锁电机1-虚接" clickable="true" index="15" faultType="loose" />
+
+                <Fault text="左前门锁电机2-短路" clickable="true" index="16" faultType="short" />
+                <Fault text="左前门锁电机2-断路" clickable="true" index="16" faultType="open" />
+                <Fault text="左前门锁电机2-虚接" clickable="true" index="16" faultType="loose" />
+
+                <Fault text="左后视镜左右调节电源-短路" clickable="true" index="17" faultType="short" />
+                <Fault text="左后视镜左右调节电源-断路" clickable="true" index="17" faultType="open" />
+                <Fault text="左后视镜左右调节电源-虚接" clickable="true" index="17" faultType="loose" />
+
+                <Fault text="左后视镜上下调节电源-短路" clickable="true" index="18" faultType="short" />
+                <Fault text="左后视镜上下调节电源-断路" clickable="true" index="18" faultType="open" />
+                <Fault text="左后视镜上下调节电源-虚接" clickable="true" index="18" faultType="loose" />
+
+                <Fault text="左后视镜接地-短路" clickable="true" index="19" faultType="short" />
+                <Fault text="左后视镜接地-断路" clickable="true" index="19" faultType="open" />
+                <Fault text="左后视镜接地-虚接" clickable="true" index="19" faultType="loose" />
+            </Section>
+            <Section title="通讯系统故障设置">
+                <Fault text="组合开关CAN-H-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="组合开关CAN-H-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="组合开关CAN-H-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="组合开关CAN-L-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="组合开关CAN-L-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="组合开关CAN-L-虚接" clickable="true" index="2" faultType="loose" />
+
+                <Fault text="组合开关控制(左前开关)信号-短路" clickable="true" index="3" faultType="short" />
+                <Fault text="组合开关控制(左前开关)信号-断路" clickable="true" index="3" faultType="open" />
+                <Fault text="组合开关控制(左前开关)信号-虚接" clickable="true" index="3" faultType="loose" />
+
+                <Fault text="组合开关控制(右前开关)信号-短路" clickable="true" index="4" faultType="short" />
+                <Fault text="组合开关控制(右前开关)信号-断路" clickable="true" index="4" faultType="open" />
+                <Fault text="组合开关控制(右前开关)信号-虚接" clickable="true" index="4" faultType="loose" />
+
+                <Fault text="组合开关控制(左后开关)信号-短路" clickable="true" index="5" faultType="short" />
+                <Fault text="组合开关控制(左后开关)信号-断路" clickable="true" index="5" faultType="open" />
+                <Fault text="组合开关控制(左后开关)信号-虚接" clickable="true" index="5" faultType="loose" />
+
+                <Fault text="组合开关控制(右后开关)信号-短路" clickable="true" index="6" faultType="short" />
+                <Fault text="组合开关控制(右后开关)信号-断路" clickable="true" index="6" faultType="open" />
+                <Fault text="组合开关控制(右后开关)信号-虚接" clickable="true" index="6" faultType="loose" />
+            </Section>
+        </Page>
+    </FaultPages>
+</AppConfig>

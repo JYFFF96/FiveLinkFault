@@ -1,0 +1,44 @@
+# Qt / CMake 编译目录
+build/
+build-*/
+cmake-build-*/
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+
+# Qt Creator
+*.pro.user
+*.pro.user.*
+*.qmlproject.user
+CMakeLists.txt.user
+*.autosave
+
+# 编译产生的文件
+*.obj
+*.o
+*.exe
+*.dll
+*.so
+*.a
+*.lib
+*.pdb
+*.ilk
+
+# Qt 自动生成
+moc_*.cpp
+ui_*.h
+qrc_*.cpp
+*.qmlc
+*.jsc
+
+# 临时文件
+*.tmp
+*.log
+*.bak
+.DS_Store
+Thumbs.db
+
+# Python 缓存
+__pycache__/
+*.pyc

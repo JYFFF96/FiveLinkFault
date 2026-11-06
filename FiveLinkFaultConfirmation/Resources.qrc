@@ -1,0 +1,6 @@
+<RCC>
+    <qresource prefix="/">
+        <file>config/AppConfig.xml</file>
+        <file>images/logo.ico</file>
+    </qresource>
+</RCC>

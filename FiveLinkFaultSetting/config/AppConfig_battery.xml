@@ -1,0 +1,38 @@
+<?xml version='1.0' encoding='utf-8'?>
+<AppConfig>
+    <AppTitle>五联动电池故障设置软件</AppTitle>
+    <Commands>
+        <ResetFrame>#ID:0;R:1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20;RS:0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0;C:1,2,3,4,5,6,7,8;CS:0,0,0,0,0,0,0,0;%</ResetFrame>
+        <ReadFrame>#ID:0;READ;%</ReadFrame>
+    </Commands>
+    <FaultPages>
+        <Page id="fiveLink" title="五联动故障设置">
+            <Section title="电源系统故障设置">
+                <Fault text="BASU1高压监控接地-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="BASU1高压监控接地-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="BASU1高压监控接地-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="BASU2高压监控接地-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="BASU2高压监控接地-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="BASU2高压监控接地-虚接" clickable="true" index="2" faultType="loose" />
+
+                <Fault text="BASU2高压监控供电-短路" clickable="true" index="3" faultType="short" />
+                <Fault text="BASU2高压监控供电-断路" clickable="true" index="3" faultType="open" />
+                <Fault text="BASU2高压监控供电-虚接" clickable="true" index="3" faultType="loose" />
+
+                <Fault text="BASU1高压监控供电-短路" clickable="true" index="4" faultType="short" />
+                <Fault text="BASU1高压监控供电-断路" clickable="true" index="4" faultType="open" />
+                <Fault text="BASU1高压监控供电-虚接" clickable="true" index="4" faultType="loose" />
+            </Section>
+            <Section title="通讯系统故障设置">
+                <Fault text="CAN-H-短路" clickable="true" index="1" faultType="short" />
+                <Fault text="CAN-H-断路" clickable="true" index="1" faultType="open" />
+                <Fault text="CAN-H-虚接" clickable="true" index="1" faultType="loose" />
+
+                <Fault text="CAN-L-短路" clickable="true" index="2" faultType="short" />
+                <Fault text="CAN-L-断路" clickable="true" index="2" faultType="open" />
+                <Fault text="CAN-L-虚接" clickable="true" index="2" faultType="loose" />
+            </Section>
+        </Page>
+    </FaultPages>
+</AppConfig>
